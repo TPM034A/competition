@@ -48,3 +48,5 @@ The competiton have a web interface where you can submit your predictions and ch
 5. **Ranking**: You can check the ranking of the competition in the web interface. The ranking will be based on the RMSE of the predictions in the **predict.csv** file. The RMSE will be calculated by the Competiton team using the true values of the `Life expectancy` of the **predict.csv** file.
 
 6. **Grading**: The top 10 participants will receive grading points according to the table mentioned above. The grading will be based on the ranking of the RMSE of your predictions.
+
+Good Luck!
