@@ -4,8 +4,8 @@
 Welcome to the technical guidelines for the competition in Machine Learning for Socio-technical Systems (TMP034a). Assignment 01 finalizes with an internal competition in pedicting `Life expectancy`. For doing so, you have to train and predicts country's Life Expectancy given the data set you have been working in this assigment.
 
 In this competition, you have access to two data files in CSV: 
-- (1) **train.csv**: This data file includes everything, the dependent variable `Life expectancy`, many explanatory variables, and a `ROW_ID` column. The latter is just a unique identification for the row.
-- (2) **predict.csv**: This data file has the exact same format as *train.csv*, but the `Life expectancy` values where removed (i.e., the column is filled with NaN values).
+- (1) **train.csv**: This data file includes everything, the dependent variable `Life expectancy`, many explanatory variables, and a `ROW_ID` column. The latter is just a unique identification for the row. (**[DOWNLOAD FILE](https://github.com/TPM034A/competition/raw/refs/heads/main/train.csv)**)
+- (2) **predict.csv**: This data file has the exact same format as *train.csv*, but the `Life expectancy` values where removed (i.e., the column is filled with NaN values).(**[DOWNLOAD FILE](https://github.com/TPM034A/competition/raw/refs/heads/main/predict.csv)**)
 
 You have to use the data provided in **train.csv** to train a model that can predict the `Life expectancy`. Then, you have to use this model to predict the `Life expectancy` in the **predict.csv** file and fill-in the `Life expectancy` column with your predictions. The evaluation metric will be the mean squared error ([RMSE](https://scikit-learn.org/1.5/modules/generated/sklearn.metrics.mean_squared_error.html)) between the your prediction and the true Life Expectancy.
 
